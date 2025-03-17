@@ -1,0 +1,3 @@
+[submodule "pockmp/appKmp"]
+	path = pockmp/appKmp
+	url = https://github.com/duduaiqfome/appKmp.git
