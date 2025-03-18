@@ -11,6 +11,7 @@
 		870EACFB2D88A48A00CFCC0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870EACFA2D88A48A00CFCC0E /* ContentView.swift */; };
 		870EACFD2D88A48D00CFCC0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 870EACFC2D88A48D00CFCC0E /* Assets.xcassets */; };
 		870EAD002D88A48D00CFCC0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 870EACFF2D88A48D00CFCC0E /* Preview Assets.xcassets */; };
+		87D989562D89BEBF00E5C013 /* pocKMP in Frameworks */ = {isa = PBXBuildFile; productRef = 87D989552D89BEBF00E5C013 /* pocKMP */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87D989562D89BEBF00E5C013 /* pocKMP in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = pockmp;
+			packageProductDependencies = (
+				87D989552D89BEBF00E5C013 /* pocKMP */,
+			);
 			productName = pockmp;
 			productReference = 870EACF52D88A48A00CFCC0E /* pockmp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 870EACEC2D88A48A00CFCC0E;
+			packageReferences = (
+				87D989542D89BEBF00E5C013 /* XCRemoteSwiftPackageReference "swift-package" */,
+			);
 			productRefGroup = 870EACF62D88A48A00CFCC0E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -344,6 +352,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		87D989542D89BEBF00E5C013 /* XCRemoteSwiftPackageReference "swift-package" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:duduaiqfome/swift-package.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		87D989552D89BEBF00E5C013 /* pocKMP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87D989542D89BEBF00E5C013 /* XCRemoteSwiftPackageReference "swift-package" */;
+			productName = pocKMP;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 870EACED2D88A48A00CFCC0E /* Project object */;
 }

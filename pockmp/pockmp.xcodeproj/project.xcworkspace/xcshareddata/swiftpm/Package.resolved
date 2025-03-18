@@ -1,0 +1,15 @@
+{
+  "originHash" : "3c070b35202ff9f67c61bd93b380f8212afc2ede095f44b40c69d79c1891aaa7",
+  "pins" : [
+    {
+      "identity" : "swift-package",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:duduaiqfome/swift-package.git",
+      "state" : {
+        "revision" : "2e8658c53fc50de4aad38c1bed6d85c31cdb12af",
+        "version" : "0.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}
