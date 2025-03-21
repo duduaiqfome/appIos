@@ -5,7 +5,7 @@
 //  Created by Luís Eduardo Marinho Fernandes on 17/03/25.
 //
 
-import Shared
+import AiqShared
 import SwiftUI
 
 struct ContentView: View {
